@@ -48,7 +48,7 @@ public class CuboidRegion extends Region
 			this.points[0].updatePoint(ctx.dt());
 			this.points[1].updatePoint(ctx.dt());
 			
-			this.grid.render(ctx);
+//			this.grid.render(ctx);
 			this.box.render(ctx);
 			
 			this.points[0].render(ctx);
